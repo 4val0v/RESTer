@@ -1,0 +1,43 @@
+        {
+            "name": "testtesttest",
+            "item": [
+                {
+                    "request": {
+                        "url": "https://vk.com/dev",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Accept-Encoding",
+                                "value": "gzip, deflate, br"
+                            },
+                            {
+                                "key": "Accept-Language",
+                                "value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/x-www-form-urlencoded"
+                            },
+                            {
+                                "key": "Pragma",
+                                "value": "no-cache"
+                            },
+                            {
+                                "key": "User-Agent",
+                                "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.116"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "method=photos.getUploadServer&param_album_id=169816988&param_group_id=72737822&param_v=5.92&newfilm=[$file.newfilm-170826192406-avi]"
+                        }
+                    },
+                    "id": "rester-4",
+                    "name": "test_2"
+                }
+            ]
+        }
