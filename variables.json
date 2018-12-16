@@ -1,0 +1,57 @@
+        {
+            "name": "testtesttest",
+            "item": [
+                {
+                    "request": {
+                        "url": "https://vk.com/dev?wall_id={wallId}",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Accept-Encoding",
+                                "value": "gzip, deflate, br"
+                            },
+                            {
+                                "key": "Accept-Language",
+                                "value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+                            },
+                            {
+                                "key": "Cache-Control",
+                                "value": "no-cache"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/x-www-form-urlencoded"
+                            },
+                            {
+                                "key": "Pragma",
+                                "value": "no-cache"
+                            },
+                            {
+                                "key": "User-Agent",
+                                "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.116"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "username={username}&api_key={api_key}"
+                        },
+                        "variables": [
+                            {
+                                "key": "username",
+                                "value": "teststst23"
+                            },
+                            {
+                                "key": "api_key",
+                                "value": "234567890qwertyui"
+                            },
+                            {
+                                "key": "wallId",
+                                "value": ""
+                            }
+                        ]
+                    },
+                    "id": "rester-4",
+                    "name": "test_3_json"
+                }
+            ]
+        }
