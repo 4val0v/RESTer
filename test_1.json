@@ -1,0 +1,27 @@
+
+            "name": "testtesttest",
+            "item": [
+                {
+                    "request": {
+                        "url": "https://apitest.net/pictures.php?image_id=2323&galery_id=12",
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Accept-Charset",
+                                "value": "utf-8"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/x-www-form-urlencoded"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "login=admin&pass=1234567"
+                        }
+                    },
+                    "id": "rester-19",
+                    "name": "test_1"
+                }
+            ]
+        }
